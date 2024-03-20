@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 
 const frameCount = 367;
 const currentFrame = (index) =>
-  `frame_${index.toString().padStart(5, "0")}.gif`;
+  `jpg/frame_${index.toString().padStart(5, "0")}.jpg`;
 
 const preloadImages = () => {
   for (let i = 1; i < frameCount; i++) {
